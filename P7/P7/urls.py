@@ -6,4 +6,5 @@ from crud.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', hello_world),
+    path('', student_api),
 ]
